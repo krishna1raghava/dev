@@ -1,1 +1,11 @@
 
+---
+- hosts: dev
+  tasks:
+  - name: a file
+    file: name=/pop state=touch
+  - name: a king
+    file: name=/asd state=directory
+    tags: mytag
+  roles:
+   -  httpdinstall
