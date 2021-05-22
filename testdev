@@ -1,4 +1,4 @@
- =------this is test for dev file this is in fork file if its goes to main file 
+ --=------this is test for dev file this is in fork file if its goes to main file 
 this line is visible in main file 
 ---
 - hosts: dev
